@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  jupyter:
+  calculus-workshop:
     image: utkusarioglu/conda-math-devcontainer:1.0.4
     volumes:
-      - ..:/utkusarioglu-com/templates/conda-math-repo-template
+      - ..:/utkusarioglu-com/workshops/calculus-workshop

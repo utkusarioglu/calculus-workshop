@@ -1,11 +1,11 @@
 {
-  "name": "conda-math-repo-template.templates.utkusarioglu-com",
+  "name": "calculus-workshop.workshops.utkusarioglu-com",
   "dockerComposeFile": [
     "../.docker/docker-compose.dev.yml",
     "docker-compose.yml"
   ],
-  "service": "jupyter",
-  "workspaceFolder": "/utkusarioglu-com/templates/conda-math-repo-template",
+  "service": "calculus-workshop",
+  "workspaceFolder": "/utkusarioglu-com/workshops/calculus-workshop",
   "settings": {
     "workbench.colorCustomizations": {
       "activityBar.background": "#002244"
