@@ -2,6 +2,10 @@ version: "3.9"
 
 services:
   calculus-workshop:
-    image: utkusarioglu/conda-math-devcontainer:1.0.5
+    image: utkusarioglu/conda-math-devcontainer:1.0.10
+    environment:
+      PYTHONPATH: /utkusarioglu-com/workshops/calculus-workshop
     volumes:
-      - ..:/utkusarioglu-com/workshops/calculus-workshop
+      - type: bind
+        source: ..
+        target: /utkusarioglu-com/workshops/calculus-workshop
